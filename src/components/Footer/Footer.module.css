@@ -1,0 +1,67 @@
+.social-icons * {
+  margin-right: 20px;
+  font-size: 1rem;
+  color: black;
+}
+
+.footer-image {
+  height: 340px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  background-color: lightgray;
+  margin-bottom: 0px;
+  margin-top:-20px;
+  data-background-position: center;
+  padding-top: 0;
+}
+.footer-all {
+  padding-bottom: 30px;
+  color: white;
+  background-image: url("../../assets/images/footer.jpg");
+  height: 340px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  background-color: lightgray;
+  margin-bottom: 0px;
+  margin-top:-20px;
+  data-background-position: center;
+  padding-top: 0;
+  margin-bottom: 30px;
+
+}
+
+.footer-phone{
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.footer-phone a{
+  color: black;
+}
+.footer-phone a:hover {
+  color: white;
+}
+
+.footer-header {
+  color: white;
+  text-align: center;
+}
+.footer-company a {
+  color: black;
+}
+.footer-company a:hover {
+  color: white;
+}
+
+.footer-company {
+  text-align: center;
+}
+
+.footer-copyright {
+  font-size: x-small;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,103 @@
+<div className={`${styles["column-section"]}`}>
+    <div className={`${styles["column-row"]}`}>
+        <div className={`${styles["blue-column col_50"]}`}>
+              <GridContainer>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h2 className={classes.title}>Features</h2>
+                      <h5 className={classes.description}><i className="fas fa-lock product-icons" /> Fully Secure & HIPAA Compliant</h5>
+                  </GridItem>
+              </GridContainer>
+
+        </div>
+        <div className={`${styles["blue-column col_50"]}`}>
+              <GridContainer>
+
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h2 className={classes.title}>Pricing</h2>
+                      <h5 className={classes.description}><i className="far fa-handshake product-icons" />Basic or Standard Options</h5>
+                  </GridItem>
+              </GridContainer>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div>
+              <GridContainer>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <div className={`${styles["test"]}`}>
+                      <h2 className={classes.title}>Features</h2>
+                      <h5 className={classes.description}><i className="fas fa-lock product-icons" /> Fully Secure & HIPAA Compliant</h5>
+                        </div>
+                  </GridItem>
+
+
+
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h2 className={classes.title}>Pricing</h2>
+                      <h5 className={classes.description}><i className="far fa-handshake product-icons" />Basic or Standard Options</h5>
+                  </GridItem>
+
+
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fas fa-unlink product-icons" />No Redirects to 3rd Party Websites</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="far fa-stop-circle product-icons" />Cancel Any Time</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fab fa-wordpress-simple product-icons" />Build & Manage Forms in WordPress</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fa fa-gift product-icons" />Basic – FREE (Limit 1 form & 25 submissions/mo)</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fa fa-plug product-icons" />Integrates With Caldera & Gravity</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="far fa-credit-card product-icons" />Standard – $55/mo or $600/yr</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fa fa-paint-brush product-icons" />Optional Drag ‘N Draw Signature</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fas fa-laptop product-icons" />Supports 1 Live Domain & 1 Staging</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fa fa-map-marker product-icons" />Ability to Separate Forms by Location</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fab fa-wpforms product-icons" />Unlimited Forms</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fas fa-user-md product-icons" />Ability to Separate Forms by Doctor</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fas fa-cloud-upload-alt product-icons" />Unlimited Form Submissions</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="far fa-file-pdf product-icons" />Create Secure PDF’s of Submitted Forms</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fa fa-life-ring product-icons" />Outstanding Customer Support</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fa fa-upload product-icons" />Secure Unlimited File Upload Option</h5>
+                  </GridItem>
+                  <GridItem xs={12} sm={12} md={6}>
+                      <h5 className={classes.description}><i className="fa fa-upload product-icons" />File Upload Add-On $30/mo or $300/yr</h5>
+                  </GridItem>
+
+
+
+              </GridContainer>
+          </div>

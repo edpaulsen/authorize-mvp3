@@ -1,0 +1,86 @@
+.products-button {
+  color: white;
+  font-size: 24px;
+  padding: 25px 15px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background-color: var(--primary-color);
+  display: inline-block;
+}
+
+.compliancy-logo {
+  position: fixed;
+  bottom: 10px;
+  left: 40px;
+  z-index: 10;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto 24px;
+}
+
+
+.column-section {
+  background: #B3BFB8;
+  color: white;
+}
+
+.column-row {
+  margin: 0 auto 20px;
+  padding: 0 12%;
+  position: relative;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+.blue-column {
+  background: #4e738d;
+  width: 50%;
+  display: inline-block;
+
+}
+.green-column {
+  background: #7E8D85;
+  width: 50%;
+  display: inline-block;
+}
+
+.h2 {
+  padding-bottom: 20px;
+}
+.h5 {
+  padding-bottom: 12px;
+}
+
+.hipaacompliant {
+  background-color: #B3BFB8;
+}
+.hipaaheader {
+  color: white;
+  text-align: center;
+}
+
+.hipaaheader2 {
+  text-align: center;
+  font-size: x-large;
+}
+
+.hipaacontent {
+  color: black;
+  line-height: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hipaa-button {
+  border: none;
+  color: white;
+  background-color: #B3BFB8;
+  font-size: large;
+  font-weight: bold;
+}
+.hipaa-button a:hover {
+  color: black;
+}

@@ -1,0 +1,9 @@
+.container {
+  flex: 7;
+}
+
+.horizontal-separator {
+  height: 1px;
+  width: 90%;
+  background-color: var(--primary-color-low-opacity);
+}

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "api": {
+      "authorizemvp3": [
+        "Query",
+        "Mutation",
+        "Subscription"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

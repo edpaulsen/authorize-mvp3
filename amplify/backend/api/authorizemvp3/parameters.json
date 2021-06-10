@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "authorizemvp3",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authauthorizemvp344830bd0",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

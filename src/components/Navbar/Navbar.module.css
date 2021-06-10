@@ -1,0 +1,75 @@
+.container {
+  width: 100%;
+}
+
+.container img {
+  object-fit: contain;
+  object-position: center center;
+  margin-bottom: 20px;
+}
+
+.horizontal-separator {
+  height: 1px;
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.nav-links {
+  flex: 1;
+  justify-content: center;
+  padding-left: 75px;
+}
+
+.nav-links a {
+  margin-right: 30px;
+  text-align: center;
+}
+
+.right-nav-links {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.right-nav-links a,
+button {
+  margin-right: 10px;
+}
+
+.right-nav-links button {
+  border: none;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+  background-color:var(--primary-color);
+  cursor: pointer;
+  outline: none;
+}
+
+.right-nav-links span {
+  position: absolute;
+  border-radius: 50px;
+  color: white;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  font-size: 11px;
+  right: -10px;
+  bottom: 10px;
+}
+
+.products-button {
+  font-size: 16px;
+  padding: 10px 6px;
+  border-radius: 5px;
+  border: 3px solid #000;
+  border-radius: 10px;
+}
+
+.products-button2 {
+  text-align: center;
+  padding-top: 5px;
+
+}
+
+

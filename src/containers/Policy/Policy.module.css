@@ -1,0 +1,79 @@
+.hero-image {
+  height: 340px;
+  width: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  background-color: lightgray;
+  margin-bottom: 0px;
+  margin-top:0px;
+  data-background-position: center;
+}
+
+.video-wrapper {
+  height: 500px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.compliancy-logo {
+  position: fixed;
+  bottom: 10px;
+  left: 40px;
+  z-index: 10;
+}
+
+.home-button {
+  display: inline-block;
+}
+
+.products-button {
+  color: white;
+  font-size: 24px;
+  padding: 25px 15px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  background-color: var(--primary-color);
+  display: inline-block;
+}
+
+.button-center {
+  text-align: center;
+  align-content: center;
+}
+
+.test {
+  color: red;
+}
+
+.column-section {
+  background: #B3BFB8;
+  color: white;
+}
+
+.column-row {
+  margin: 0 auto 20px;
+  padding: 0 12%;
+  position: relative;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+.blue-column {
+  background: #4e738d;
+  width: 50%;
+  display: inline-block;
+
+}
+.green-column {
+  background: #7E8D85;
+  width: 50%;
+  display: inline-block;
+}
+
+.h2 {
+  padding-bottom: 20px;
+}
+.h5 {
+  padding-bottom: 12px;
+}

@@ -1,0 +1,35 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-authorizemvp3-dev-214924-authRole",
+      "UnauthRoleArn": "arn:aws:iam::506413584137:role/amplify-authorizemvp3-dev-214924-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::506413584137:role/amplify-authorizemvp3-dev-214924-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-authorizemvp3-dev-214924-deployment",
+      "UnauthRoleName": "amplify-authorizemvp3-dev-214924-unauthRole",
+      "StackName": "amplify-authorizemvp3-dev-214924",
+      "StackId": "arn:aws:cloudformation:us-east-2:506413584137:stack/amplify-authorizemvp3-dev-214924/7818f130-c996-11eb-abf6-024630c32df4",
+      "AmplifyAppId": "d312x2ck4aqdtm"
+    },
+    "categories": {
+      "function": {
+        "authorizemvp344830bd0PostConfirmation": {
+          "GROUP": "adminmvp3",
+          "deploymentBucketName": "amplify-authorizemvp3-dev-214924-deployment",
+          "s3Key": "amplify-builds/authorizemvp344830bd0PostConfirmation-2f33417a3262572f5a4e-build.zip"
+        },
+        "addUserToDb3": {
+          "deploymentBucketName": "amplify-authorizemvp3-dev-214924-deployment",
+          "s3Key": "amplify-builds/addUserToDb3-4b565945354d454e4751-build.zip"
+        },
+        "processPayment3": {
+          "deploymentBucketName": "amplify-authorizemvp3-dev-214924-deployment",
+          "s3Key": "amplify-builds/processPayment3-674f334c6a3861735966-build.zip"
+        }
+      },
+      "auth": {
+        "authorizemvp344830bd0": {}
+      }
+    }
+  }
+}

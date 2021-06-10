@@ -1,0 +1,30 @@
+.product-detail-container div:first-child {
+  flex: 7;
+}
+
+.product-detail-container div {
+  flex: 3;
+}
+
+.product-detail-container div input {
+  border: 1px solid lightgray;
+  height: 50px;
+  width: 40%;
+  outline: none;
+  color: gray;
+  text-align: center;
+}
+
+.product-detail-container div button {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.description-detail {
+  width: 80%;
+  line-height: 1.5;
+}

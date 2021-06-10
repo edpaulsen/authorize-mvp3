@@ -1,0 +1,6 @@
+amplify/backend/api/authorizemvp3/schema.graphql
+
+amplify/backend/auth/authorizemvp344830bd0/parameters.json (true) line 3
+
+amplify/backend/function/ProcessPayment3/src/index.js - below line 7
+amplify/backend/function/ProcessPayment3/src folders graphql, helpers, services, utils

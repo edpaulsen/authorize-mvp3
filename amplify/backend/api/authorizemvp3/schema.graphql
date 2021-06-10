@@ -1,0 +1,117 @@
+type S3Object {
+  bucket: String
+  region: String
+  key: String
+  localUri: String
+  mimeType: String
+}
+
+input CardInfoInput {
+  cc: String!
+  cvv: String!
+  expire: String!
+}
+
+type Mutation {
+  processPayment(
+    cardInfo: CardInfoInput!
+    amount: String!
+    productIds: [String!]!
+    userId: String!
+  ): String @function(name: "processPayment-${env}")
+}
+
+type User
+@model
+@auth(
+  rules: [
+    {
+      allow: public
+      provider: apiKey
+      operations: [read, create, update, delete]
+    }
+    { allow: private, operations: [create, read, update, delete] }
+    { allow: public, provider: iam, operations: [read] }
+  ]
+) {
+  id: ID!
+  email: String
+  orders: [Order] @connection(keyName: "byUserId", fields: ["id"])
+}
+
+type Products
+@model
+@auth(
+  rules: [
+    {
+      allow: public
+      provider: apiKey
+      operations: [read, create, update, delete]
+    }
+    { allow: private, operations: [create, read, update, delete] }
+    { allow: public, provider: iam, operations: [read] }
+  ]
+) {
+  id: ID!
+  name: String
+  price: Float
+  description: String
+  images: [S3Object]
+  orders: [OrderProducts] @connection(keyName: "byProduct", fields: ["id"])
+}
+
+type Order
+@model
+@key(name: "byUserId", fields: ["userId"], queryField: "orderByUserId")
+@auth(
+  rules: [
+    {
+      allow: public
+      provider: apiKey
+      operations: [read, create, update, delete]
+    }
+    { allow: private, operations: [create, read, update, delete] }
+    { allow: public, provider: iam, operations: [read] }
+  ]
+) {
+  id: ID!
+  status: OrderStatusEnum
+  price: Float
+  userId: ID!
+  products: [OrderProducts] @connection(keyName: "byOrder", fields: ["id"])
+}
+
+type OrderProducts
+@model(queries: null)
+@auth(
+  rules: [
+    {
+      allow: public
+      provider: apiKey
+      operations: [read, create, update, delete]
+    }
+    { allow: private, operations: [create, read, update, delete] }
+    { allow: public, provider: iam, operations: [read] }
+  ]
+)
+@key(name: "byProduct", fields: ["productId", "orderId"])
+@key(name: "byOrder", fields: ["orderId", "productId"]) {
+  id: ID!
+  productId: ID!
+  orderId: ID!
+  order: Order @connection(fields: ["orderId"])
+  product: Products @connection(fields: ["productId"])
+}
+
+enum OrderStatusEnum {
+  SUCCESS
+  FAILED
+}
+
+type ModelOrderProductsConnection
+@aws_iam
+@aws_api_key
+@aws_cognito_user_pools {
+  items: [OrderProducts]
+  nextToken: String
+}

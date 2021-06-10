@@ -1,0 +1,34 @@
+.container {
+  flex: 3;
+}
+
+.horizontal-separator {
+  height: 1px;
+  width: 100%;
+  background-color: var(--primary-color-low-opacity);
+}
+
+.total-container {
+  padding: 25px 0;
+}
+
+.total-container div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.checkout-button {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  color: white;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+
+.checkout-button:disabled{
+  opacity: 0.7;
+  cursor: not-allowed;
+}
