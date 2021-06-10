@@ -3,4 +3,12 @@ amplify/backend/api/authorizemvp3/schema.graphql
 amplify/backend/auth/authorizemvp344830bd0/parameters.json (true) line 3
 
 amplify/backend/function/ProcessPayment3/src/index.js - below line 7
-amplify/backend/function/ProcessPayment3/src folders graphql, helpers, services, utils
+amplify/backend/function/ProcessPayment3/src folders graphql, helpers, services, utils - copied over NOT src 
+
+
+amplify/backend/function/addUserToDb3/src/index.js - 
+below line 7 - changed to match graphql line 17 commentted out apikey stuff lines 10,15,16
+
+amplify/backend/function/ProcessPayment3/src/services/order.service.js - change line 9 graphql
+
+
